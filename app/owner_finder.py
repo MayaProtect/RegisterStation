@@ -19,7 +19,7 @@ class OwnerFinder:
     @staticmethod
     def find(owner_id: UUID) -> Owner:
         mongo_host = env.get('MONGO_HOST', 'localhost')
-        mongo_port = env.get('MONGO_PORT', 27017)
+        mongo_port = int(env.get('MONGO_PORT', 27017))
         mongo_db = env.get('MONGO_DB', 'mayaprotect')
 
         mongo_client = MongoClient(mongo_host, mongo_port)
