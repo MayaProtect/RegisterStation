@@ -12,7 +12,7 @@ class RegisterStation:
         self.__mongo_db = params['mongo_db']
 
         self.__app = Flask(__name__)
-        self.__app.route('/api/stations', methods=['POST'])(self.__register)
+        self.__app.route('/stations', methods=['POST'])(self.__register)
         CORS(self.__app)
 
         self.__mongo_client = MongoClient(self.__mongo_host, self.__mongo_port)
