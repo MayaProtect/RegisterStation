@@ -3,9 +3,17 @@
 Service used to register a new Station into MongoDB Database
 <Last build info>
 
-## How to build
+## How to use
 
-## Usage
+`pip install -r requirements.txt`
+
+`python run.py`
+
+## How to test
+
+`pip install -r requirements.txt`
+
+`python run_test.py`
 
 ## Contributors
 Peter Fontaine - contact@peterfontaine.fr
