@@ -10,6 +10,6 @@ ENV MONGO_HOST=mongo
 ENV MONGO_PORT=27017
 ENV MONGO_DB=mayaprotect
 
-EXPOSE 8000
+EXPOSE 8080
 
 CMD python run.py

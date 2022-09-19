@@ -37,4 +37,4 @@ class RegisterStation:
             return Response(json.dumps(response), status=500)
 
     def run(self):
-        self.__app.run(host='0.0.0.0', port=3000)
+        self.__app.run(host='0.0.0.0', port=8080)
