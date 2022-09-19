@@ -1,20 +1,28 @@
-# MayaProtect - Microservice <INSERT NAME>
+# MayaProtect - Microservice Register Station
 
-<Microservice description>
+Service used to register a new Station into MongoDB Database
 <Last build info>
 
-## How to build
+## How to use
 
-## Usage
+`pip install -r requirements.txt`
+
+`python run.py`
+
+## How to test
+
+`pip install -r requirements.txt`
+
+`python run_test.py`
 
 ## Contributors
-<firstname> <lastname> - <email>
+Peter Fontaine - contact@peterfontaine.fr
 
 ## Licence
 
 ```plaintext
-<Microservice's Name>
-Copyright (C) 2022  <name of author>
+Register Station Microservice
+Copyright (C) 2022 Peter Fontaine
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
